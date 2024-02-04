@@ -1,0 +1,56 @@
+<!--Cory Neubeck-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Palindrome Checker</title>
+		<script src="strings.js" defer></script>
+		<script src="Form.js" defer></script>
+		<link rel="stylesheet" href="strings.css"/>
+		<link rel="stylesheet" href="Form.css">
+		
+	</head>
+	<body>
+		<h1>Is your word a Palindrome?</h1>
+
+		<!--Button used to call function in JS-->
+		<button id="button" onclick="click()">Try it Out</button>
+
+		<!--Imagine-->
+		<p><img src="Cat panlidrome.jpg" /><>
+
+		<!--Form-->
+		
+		<div class="container">
+			<form id="form" action="/"> 
+
+			<h1>Sign up</h1>
+			<div class="input-control">
+			
+			<label for="firstName">First Name</label>
+			<input type="text" id="firstName" name="firstName">
+			<div class="error"></div>
+		
+		<div class="input-control"> 
+			<label for="lastName">Last Name</label>
+			<input type="text" id="lastName" name="lastName"> 
+		<div class="error"></div>
+
+			<div class="input-control">
+				<label for="zipCode">Zip Code</label>
+				<input type="text" id="zipCode" name="zipCode"> 
+			<div class="error"></div>
+	
+			<button type="submit">Sign Up</button>
+			
+		</form>
+			</div>
+	<!--Audio-->	
+<audio id="myAudio" >
+	<source src="thunder_strike_1.mp3">
+</audio>
+		<button onclick="playAudio()" type="button"> Play Audio</button>
+		<button onclick="pauseAudio()" type="button"> Pause Audio</button>
+	</body>
+</html>
